@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+<head>
+	<!-- Made by Jonathan Amparo | 7/27/2018 -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Survey Form - Responsive Web Design Projects #1</title>
+	<link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,400i,700" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<!-- <link rel="stylesheet" href="responsive.css"> -->
+</head>
+<body>
+
+	<h1 id="title">Survey Form</h1>
+
+	<p id="description">Hello, please fill out my survey.</p>
+
+	<form id="survey-form">
+		<fieldset>
+			<legend>Survey Form</legend>
+				<span class="red">* </span>Name: 
+				<input id="name-label" type="text" name="name">
+				<br><br>
+				<span class="red">* </span>Email:
+				<input id="email-label" type="email" name="email">
+				<br><br>
+				<span class="red">* </span>Age:
+				<input id="number" type="number" name="age" min="1" max="120">
+				<br><br>
+				<input type="radio" name="gender" id="male" value="male">
+				<label for="male">Male</label>
+				<br>
+				<input type="radio" name="gender" id="female" value="female">
+				<label for="female">Female</label>
+				<br>
+				<input type="radio" name="gender" id="other" value="other">
+				<label for="other">Other</label>
+				<br><br>
+				
+				<select name="cars" size="4" multiple="">
+					<option value="volvo">Volvo</option>
+					<option value="saab">Saab</option>
+					<option value="fiat">Fiat</option>
+					<option value="audi">Audi</option>
+				</select>
+				<br>
+		<input type="submit" value="Submit">
+		<input type="reset">
+		</fieldset>
+
+	</form>
+
+
+
+</body>
+</html>
