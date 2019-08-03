@@ -1,7 +1,13 @@
 function truncateString(str, num) {
-  if (str.length <= num) {
+  if (num > 3) {
+    if (str.length > num) {
+      str = str.slice(0, num);
+      str = str.concat("...");
+    }
     return str;
   } else {
-    return str.slice(0, num > 3 ? num - 3 : num) + "...";
+    str = str.slice(0, num);
+    str = str.concat("...");
   }
+  return str;
 }
