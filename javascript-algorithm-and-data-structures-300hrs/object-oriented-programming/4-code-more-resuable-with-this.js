@@ -6,4 +6,4 @@ let dog = {
   }
 };
 
-dog.sayLegs();
+dog.sayLegs(); 
