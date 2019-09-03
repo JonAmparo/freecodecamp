@@ -2,7 +2,6 @@ function myReplace(str, before, after) {
   // Find index where before is on string
   var index = str.indexOf(before);
   console.log("Index Before: " + index);
-
   // Check to see if the first letter is uppercase or not
   if (str[index] === str[index].toUpperCase()) {
     // console.log("String Index 1: " + str[index]);
@@ -16,7 +15,6 @@ function myReplace(str, before, after) {
 
   return str;
 }
-
 // test here
 myReplace("He is Sleeping on the couch", "Sleeping", "sitting");
 // myReplace("A quick brown fox jumped over the lazy dog", "jumped", "leaped");

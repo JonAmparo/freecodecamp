@@ -133,5 +133,4 @@ var averageRating =
     .reduce((x1, x2) => x1 + x2) / watchList.filter(x => x.Director === "Christopher Nolan").length;
 
 // Add your code above this line
-
 console.log(averageRating);
